@@ -11,7 +11,7 @@ export function Home(){
     return (
         <Container>
             <Brand>
-                <h1>Rocketnotes</h1>
+                <h1>Notas</h1>
             </Brand>
 
             <Header />
@@ -31,8 +31,7 @@ export function Home(){
                     <Note data={{
                         title: 'React',
                         tags: [
-                            { id: '1', name: 'react' }, 
-                            {id: '2', name: 'rocket'}  
+                            { id: '1', name: 'React' }, 
                         ]
                         }}/>
                 </Section>
