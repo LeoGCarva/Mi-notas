@@ -1,6 +1,8 @@
 import { RiShutDownLine } from 'react-icons/ri';
 import { Container, Profile, Logout } from './styles';
 
+import { Link } from 'react-router-dom';
+
 export function Header(){
     return(
         <Container>
@@ -13,9 +15,11 @@ export function Header(){
                 </div>
             </Profile>
 
-            <Logout>
-                <RiShutDownLine />
-            </Logout>
+            <Link to="/signin">
+                <Logout>
+                    <RiShutDownLine />
+                </Logout>
+            </Link>
         </Container>
     )
 }

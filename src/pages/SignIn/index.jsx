@@ -10,7 +10,7 @@ export function SignIn(){
     return (
         <Container>
             <Form >
-                <h1>Notas</h1>
+                <h1>Mi-Notas</h1>
                 <p>Aplicação para salvar e gerenciar seus links úteis.</p>
 
                 <div>
@@ -27,8 +27,9 @@ export function SignIn(){
                         type="password"
                         icon={FiLock}
                     />
-
-                    <Button title="Entrar"/>
+                    <Link to="/">
+                        <Button title="Entrar"/>
+                    </Link>
                 </div>
 
                 <Link to="/register">

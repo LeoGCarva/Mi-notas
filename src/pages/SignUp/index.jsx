@@ -11,7 +11,7 @@ export function SignUp(){
         <Container>
             <Background />
             <Form >
-                <h1>Notas</h1>
+                <h1>Mi-Notas</h1>
                 <p>Aplicação para salvar e gerenciar seus links úteis.</p>
 
                 <div>
@@ -38,7 +38,7 @@ export function SignUp(){
                     <Button title="Cadastrar"/>
                 </div>
 
-                <Link to="/">
+                <Link to="/signin">
                     Voltar para o login
                 </Link>
             </Form>
